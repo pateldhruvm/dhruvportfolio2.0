@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name's Portfolio</title>
+    <link rel="icon" href="assets/portfolio.png" type="image/x-icon"> <!-- Favicon -->
+    <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+</head>
+<body>
+    <header>
+        <h1>Dhruv Patel</h1>
+        <p>Software Engineer | Web Developer | Tech Enthusiast</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm a dedicated software engineer with a passion for building scalable applications and innovative solutions...</p>
+            <img src="assets/Dhruv.png" alt="Your Profile Photo">
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Experience Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Python</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>React.js</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>FastAPI</td>
+                        <td>Advanced</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <ul>
+                <li><a href="https://github.com/Dhruv2211patel/Covid_mask_detection_invoice" target="_blank">Project 1 - 
+                  Covid_mask_detection_invoice</a></li>
+                <li><a href="https://github.com/Dhruv2211patel/Mobile_number_tracker" target="_blank">Project 2 - Mobile_number_tracker</a></li>
+            </ul>
+        </section>
+
+        <section id="certificates" class="certification-container">
+          <h2>Certificates</h2>
+          <div class="certificates-container">
+            <img src="./assets/certi1.jpeg" />
+            <img src="./assets/certi2.jpeg" />
+            <img src="./assets/certi3.jpeg" />
+            <img src="./assets/certi4.jpeg" />
+          </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+123456789" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message here"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <audio controls>
+            <source src="assets/audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <video width="320" height="240" controls>
+            <source src="assets/video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dhruv | <a href="mailto:youremail@example.com">Email Me</a> | <a href="tel:+123456789">Call Me</a></p>
+    </footer>
+</body>
+</html>
